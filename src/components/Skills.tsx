@@ -6,37 +6,37 @@ const Skills = () => {
     {
       icon: Code,
       title: "Frontend Development",
-      skills: ["React", "TypeScript", "Next.js", "Vue.js", "Tailwind CSS", "SASS"],
+      skills: ["HTML5", "CSS3", "JavaScript", "React", "Bootstrap", "Tailwind CSS"],
       color: "from-blue-500 to-cyan-500"
     },
     {
       icon: Database,
       title: "Backend Development", 
-      skills: ["Node.js", "Python", "Express", "Django", "GraphQL", "REST APIs"],
+      skills: ["Node.js", "Python", "Express.js", "REST APIs", "JSON", "Basic PHP"],
       color: "from-green-500 to-emerald-500"
     },
     {
       icon: Database,
       title: "Database & Storage",
-      skills: ["PostgreSQL", "MongoDB", "Redis", "Firebase", "Supabase", "Prisma"],
+      skills: ["MySQL", "MongoDB", "SQLite", "Firebase", "Basic PostgreSQL", "Database Design"],
       color: "from-purple-500 to-pink-500"
     },
     {
       icon: Cloud,
-      title: "Cloud & DevOps",
-      skills: ["AWS", "Docker", "Kubernetes", "Vercel", "Netlify", "CI/CD"],
+      title: "Tools & Deployment",
+      skills: ["Git", "GitHub", "VS Code", "Netlify", "Vercel", "Basic AWS"],
       color: "from-orange-500 to-red-500"
     },
     {
-      icon: Smartphone,
-      title: "Mobile Development",
-      skills: ["React Native", "Flutter", "iOS", "Android", "PWA", "Expo"],
+      icon: Zap,
+      title: "Programming Languages",
+      skills: ["JavaScript", "Python", "Java", "C++", "TypeScript (Learning)", "SQL"],
       color: "from-indigo-500 to-blue-500"
     },
     {
-      icon: Zap,
-      title: "Tools & Others",
-      skills: ["Git", "Figma", "Webpack", "Vite", "Jest", "Cypress"],
+      icon: Smartphone,
+      title: "Other Skills",
+      skills: ["Responsive Design", "Problem Solving", "Debugging", "Testing", "Agile Basics", "Team Collaboration"],
       color: "from-yellow-500 to-orange-500"
     }
   ];
@@ -46,10 +46,10 @@ const Skills = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
-            Skills & Expertise
+            Technical Skills
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            A comprehensive toolkit for building modern, scalable applications
+            A solid foundation in modern web development technologies gained through academics and personal projects
           </p>
         </div>
         

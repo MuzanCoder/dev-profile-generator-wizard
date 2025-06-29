@@ -5,50 +5,50 @@ import { Button } from '@/components/ui/button';
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, shopping cart, and payment processing.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+      title: "Personal Portfolio Website",
+      description: "A responsive portfolio website built with React and Tailwind CSS to showcase my skills and projects. Features smooth animations and modern design.",
+      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
+      technologies: ["React", "Tailwind CSS", "JavaScript", "HTML5", "CSS3"],
       liveUrl: "#",
       githubUrl: "#"
     },
     {
-      title: "Task Management App",
-      description: "Collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features. Built with modern web technologies.",
+      title: "Task Manager App",
+      description: "A simple task management application with CRUD operations. Users can add, edit, delete, and mark tasks as complete. Built as a learning project.",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      technologies: ["Next.js", "PostgreSQL", "Prisma", "Socket.io", "TypeScript"],
+      technologies: ["HTML", "CSS", "JavaScript", "Local Storage", "Bootstrap"],
       liveUrl: "#",
       githubUrl: "#"
     },
     {
-      title: "Social Media Dashboard",
-      description: "Analytics dashboard for social media management with data visualization, scheduling posts, and performance tracking across multiple platforms.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      technologies: ["Vue.js", "Python", "Django", "Chart.js", "Redis"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Real Estate Platform",
-      description: "Property listing and management platform with advanced search filters, virtual tours, and integrated map functionality for buyers and sellers.",
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=400&fit=crop",
-      technologies: ["React", "Express", "MySQL", "Google Maps API", "AWS"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Weather Forecast App",
-      description: "Modern weather application with location-based forecasts, interactive maps, and detailed weather analytics. Features offline support and push notifications.",
+      title: "Weather Dashboard",
+      description: "A weather application that fetches data from OpenWeather API. Displays current weather and 5-day forecast with location search functionality.",
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      technologies: ["React Native", "OpenWeather API", "Firebase", "Redux"],
+      technologies: ["JavaScript", "REST API", "CSS3", "HTML5", "OpenWeather API"],
       liveUrl: "#",
       githubUrl: "#"
     },
     {
-      title: "Learning Management System",
-      description: "Comprehensive LMS with course creation, student enrollment, progress tracking, and interactive quizzes. Includes video streaming and file management.",
-      image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&h=400&fit=crop",
-      technologies: ["Angular", "Node.js", "MongoDB", "WebRTC", "Docker"],
+      title: "Student Grade Calculator",
+      description: "Academic project for calculating student grades with different weightage for assignments, tests, and finals. Includes GPA calculation and grade statistics.",
+      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&h=400&fit=crop",
+      technologies: ["Java", "Swing GUI", "Object-Oriented Programming"],
+      liveUrl: "#",
+      githubUrl: "#"
+    },
+    {
+      title: "Simple E-commerce Frontend",
+      description: "Frontend design for an e-commerce website with product catalog, shopping cart, and checkout form. Focus on responsive design and user experience.",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+      technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Responsive Design"],
+      liveUrl: "#",
+      githubUrl: "#"
+    },
+    {
+      title: "College Event Management",
+      description: "Final year project - A web application for managing college events with user registration, event creation, and basic admin panel functionality.",
+      image: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600&h=400&fit=crop",
+      technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "Bootstrap"],
       liveUrl: "#",
       githubUrl: "#"
     }
@@ -59,10 +59,10 @@ const Projects = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-            Featured Projects
+            Academic & Personal Projects
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            A showcase of my recent work and technical capabilities
+            A collection of projects built during my learning journey to practice and demonstrate my skills
           </p>
         </div>
         

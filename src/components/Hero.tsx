@@ -15,22 +15,22 @@ const Hero = () => {
         <div className="mb-8">
           <div className="w-48 h-48 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-400 to-purple-500 p-1">
             <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center text-6xl font-bold">
-              JS
+              AS
             </div>
           </div>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-          John Smith
+          Alex Smith
         </h1>
         
         <h2 className="text-2xl md:text-3xl mb-6 text-gray-300">
-          Full Stack Developer
+          Fresher Full Stack Developer
         </h2>
         
         <p className="text-xl text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed">
-          Passionate about creating exceptional digital experiences through clean code and innovative solutions. 
-          Specialized in React, Node.js, and modern web technologies.
+          Recent Computer Science graduate passionate about creating innovative web applications. 
+          Eager to learn and contribute with fresh perspectives using modern technologies like React, Node.js, and Python.
         </p>
         
         <div className="flex flex-wrap justify-center gap-4 mb-8">

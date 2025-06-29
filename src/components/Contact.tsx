@@ -10,10 +10,10 @@ const Contact = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-            Get In Touch
+            Let's Connect
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Ready to bring your ideas to life? Let's discuss your next project
+            I'm excited to start my career and open to entry-level opportunities, internships, and collaborations
           </p>
         </div>
         
@@ -21,11 +21,11 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold mb-6">Let's Connect</h3>
+              <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
               <p className="text-gray-400 mb-8 leading-relaxed">
-                I'm always interested in hearing about new opportunities and exciting projects. 
-                Whether you have a question, want to discuss a project, or just want to say hello, 
-                I'd love to hear from you.
+                As a fresh graduate, I'm eager to learn and contribute to meaningful projects. 
+                I'm looking for opportunities where I can grow my skills while adding value to your team. 
+                Let's discuss how I can help bring your ideas to life!
               </p>
             </div>
             
@@ -36,7 +36,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p className="text-gray-400">john.smith@email.com</p>
+                  <p className="text-gray-400">alex.smith@email.com</p>
                 </div>
               </div>
               
@@ -46,7 +46,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-semibold">Phone</p>
-                  <p className="text-gray-400">+1 (555) 123-4567</p>
+                  <p className="text-gray-400">+1 (555) 987-6543</p>
                 </div>
               </div>
               
@@ -56,13 +56,13 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-semibold">Location</p>
-                  <p className="text-gray-400">San Francisco, CA</p>
+                  <p className="text-gray-400">Available to relocate</p>
                 </div>
               </div>
             </div>
             
             <div className="pt-8">
-              <h4 className="font-semibold mb-4">Follow Me</h4>
+              <h4 className="font-semibold mb-4">Find Me Online</h4>
               <div className="flex space-x-4">
                 <a href="#" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors">
                   <Github className="h-5 w-5" />
@@ -114,7 +114,7 @@ const Contact = () => {
                 <label className="block text-sm font-medium mb-2">Subject</label>
                 <Input 
                   type="text" 
-                  placeholder="Project Discussion"
+                  placeholder="Job Opportunity / Collaboration"
                   className="bg-slate-700 border-slate-600 text-white placeholder-gray-400"
                 />
               </div>
@@ -122,7 +122,7 @@ const Contact = () => {
               <div>
                 <label className="block text-sm font-medium mb-2">Message</label>
                 <Textarea 
-                  placeholder="Tell me about your project..."
+                  placeholder="I'd love to hear about opportunities or discuss potential collaborations..."
                   rows={5}
                   className="bg-slate-700 border-slate-600 text-white placeholder-gray-400 resize-none"
                 />
