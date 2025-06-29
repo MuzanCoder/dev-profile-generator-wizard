@@ -8,49 +8,41 @@ const Projects = () => {
       title: "Personal Portfolio Website",
       description: "A responsive portfolio website built with React and Tailwind CSS to showcase my skills and projects. Features smooth animations and modern design.",
       image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
-      technologies: ["React", "Tailwind CSS", "JavaScript", "HTML5", "CSS3"],
+      technologies: ["React", "Tailwind CSS", "JavaScript", "HTML5", "CSS3", "Ts"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/MuzanCoder/dev-profile-generator-wizard"
     },
     {
-      title: "Task Manager App",
-      description: "A simple task management application with CRUD operations. Users can add, edit, delete, and mark tasks as complete. Built as a learning project.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      technologies: ["HTML", "CSS", "JavaScript", "Local Storage", "Bootstrap"],
-      liveUrl: "#",
-      githubUrl: "#"
+      title: "Dashboard",
+      description: "Interactive impact dashboard: charts for total points converted, carbon offset, donations raised.",
+      image: "https://image.shutterstock.com/shutterstock/photos/1938829057/display_1500/stock-vector-dashboard-ui-ux-kit-great-design-for-any-site-purposes-business-infographic-template-vector-1938829057.jpg",
+      technologies: ["JavaScript", "REST API", "CSS3", "HTML5", "D3"],
+      liveUrl: "https://testingggggggggggg.netlify.app/",
+      githubUrl: "https://github.com/MuzanCoder/impact-arena-dashboard"
     },
     {
-      title: "Weather Dashboard",
-      description: "A weather application that fetches data from OpenWeather API. Displays current weather and 5-day forecast with location search functionality.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      technologies: ["JavaScript", "REST API", "CSS3", "HTML5", "OpenWeather API"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Student Grade Calculator",
-      description: "Academic project for calculating student grades with different weightage for assignments, tests, and finals. Includes GPA calculation and grade statistics.",
+      title: "Dashboard using shadCn",
+      description: "Build an dashboard using shadcn it has searching sorting.",
       image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&h=400&fit=crop",
-      technologies: ["Java", "Swing GUI", "Object-Oriented Programming"],
-      liveUrl: "#",
-      githubUrl: "#"
+      technologies: ["Java", "shadcn", "tailwindcss"],
+      liveUrl: "https://articleshad.netlify.app/",
+      githubUrl: "https://github.com/MuzanCoder/Dashboard"
     },
     {
-      title: "Simple E-commerce Frontend",
-      description: "Frontend design for an e-commerce website with product catalog, shopping cart, and checkout form. Focus on responsive design and user experience.",
+      title: "Soft Sell Car-Review",
+      description: "Build an car insurance review page.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
       technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Responsive Design"],
-      liveUrl: "#",
-      githubUrl: "#"
+      liveUrl: "https://softsells.netlify.app/",
+      githubUrl: "https://github.com/MuzanCoder/softsell"
     },
     {
-      title: "College Event Management",
-      description: "Final year project - A web application for managing college events with user registration, event creation, and basic admin panel functionality.",
-      image: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600&h=400&fit=crop",
-      technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "Bootstrap"],
-      liveUrl: "#",
-      githubUrl: "#"
+      title: "Pokemon Search App",
+      description: "A simple web application to search and display information about Pokémon using the PokeAPI.",
+      image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=600&h=400&fit=crop",
+      technologies: ["React", "PokeAPI", "JavaScript", "CSS3", "HTML5"],
+      liveUrl: "https://pokemon-search-app.netlify.app/",
+      githubUrl: "https://github.com/MuzanCoder/FCC"
     }
   ];
 

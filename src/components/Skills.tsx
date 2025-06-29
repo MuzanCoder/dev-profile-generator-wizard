@@ -12,13 +12,13 @@ const Skills = () => {
     {
       icon: Database,
       title: "Backend Development", 
-      skills: ["Node.js", "Python", "Express.js", "REST APIs", "JSON", "Basic PHP"],
+      skills: ["Node.js", "Express.js", "REST APIs", "JSON"],
       color: "from-green-500 to-emerald-500"
     },
     {
       icon: Database,
       title: "Database & Storage",
-      skills: ["MySQL", "MongoDB", "SQLite", "Firebase", "Basic PostgreSQL", "Database Design"],
+      skills: ["MongoDB", "SQLite", "Firebase", "Basic PostgreSQL"],
       color: "from-purple-500 to-pink-500"
     },
     {
@@ -30,7 +30,7 @@ const Skills = () => {
     {
       icon: Zap,
       title: "Programming Languages",
-      skills: ["JavaScript", "Python", "Java", "C++", "TypeScript (Learning)", "SQL"],
+      skills: ["JavaScript", "Java", "C++", "TypeScript (Learning)"],
       color: "from-indigo-500 to-blue-500"
     },
     {

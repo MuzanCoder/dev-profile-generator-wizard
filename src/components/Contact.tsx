@@ -36,7 +36,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p className="text-gray-400">alex.smith@email.com</p>
+                  <p className="text-gray-400">sandeepprajapati7900@gmail.com</p>
                 </div>
               </div>
               
@@ -46,7 +46,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-semibold">Phone</p>
-                  <p className="text-gray-400">+1 (555) 987-6543</p>
+                  <p className="text-gray-400">+91 72650 75618</p>
                 </div>
               </div>
               
@@ -56,7 +56,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-semibold">Location</p>
-                  <p className="text-gray-400">Available to relocate</p>
+                  <p className="text-gray-400">Mumbai, Delhi, Gurugram</p>
                 </div>
               </div>
             </div>
@@ -64,14 +64,11 @@ const Contact = () => {
             <div className="pt-8">
               <h4 className="font-semibold mb-4">Find Me Online</h4>
               <div className="flex space-x-4">
-                <a href="#" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors">
+                <a href="https://github.com/MuzanCoder" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors">
                   <Github className="h-5 w-5" />
                 </a>
-                <a href="#" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors">
+                <a href="https://www.linkedin.com/in/sandeep-prajapati-450934263/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors">
                   <Linkedin className="h-5 w-5" />
-                </a>
-                <a href="#" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors">
-                  <Twitter className="h-5 w-5" />
                 </a>
               </div>
             </div>
@@ -87,7 +84,7 @@ const Contact = () => {
                   <label className="block text-sm font-medium mb-2">First Name</label>
                   <Input 
                     type="text" 
-                    placeholder="John"
+                    placeholder="Sandeep"
                     className="bg-slate-700 border-slate-600 text-white placeholder-gray-400"
                   />
                 </div>
@@ -95,7 +92,7 @@ const Contact = () => {
                   <label className="block text-sm font-medium mb-2">Last Name</label>
                   <Input 
                     type="text" 
-                    placeholder="Doe"
+                    placeholder="Prajapati"
                     className="bg-slate-700 border-slate-600 text-white placeholder-gray-400"
                   />
                 </div>
@@ -105,7 +102,7 @@ const Contact = () => {
                 <label className="block text-sm font-medium mb-2">Email</label>
                 <Input 
                   type="email" 
-                  placeholder="john.doe@email.com"
+                  placeholder="Sandy@email.com"
                   className="bg-slate-700 border-slate-600 text-white placeholder-gray-400"
                 />
               </div>

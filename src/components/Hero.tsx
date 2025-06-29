@@ -15,13 +15,13 @@ const Hero = () => {
         <div className="mb-8">
           <div className="w-48 h-48 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-400 to-purple-500 p-1">
             <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center text-6xl font-bold">
-              AS
+              SP
             </div>
           </div>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-          Alex Smith
+          Sandeep Prajapati
         </h1>
         
         <h2 className="text-2xl md:text-3xl mb-6 text-gray-300">
@@ -30,7 +30,7 @@ const Hero = () => {
         
         <p className="text-xl text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed">
           Recent Computer Science graduate passionate about creating innovative web applications. 
-          Eager to learn and contribute with fresh perspectives using modern technologies like React, Node.js, and Python.
+          Eager to learn and contribute with fresh perspectives using modern technologies like React, Node.js.
         </p>
         
         <div className="flex flex-wrap justify-center gap-4 mb-8">
@@ -44,15 +44,13 @@ const Hero = () => {
         </div>
         
         <div className="flex justify-center space-x-6">
-          <a href="#" className="text-gray-400 hover:text-white transition-colors">
+          <a href="https://github.com/MuzanCoder" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
             <Github className="h-8 w-8" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-white transition-colors">
+          <a href="https://www.linkedin.com/in/sandeep-prajapati-450934263/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
             <Linkedin className="h-8 w-8" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-white transition-colors">
-            <Mail className="h-8 w-8" />
-          </a>
+          
         </div>
       </div>
     </section>

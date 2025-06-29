@@ -4,27 +4,24 @@ import { Calendar, MapPin, Building, GraduationCap } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      company: "Bachelor of Technology in Computer Science",
+      company: "Bachelor of Science in Computer Science",
       position: "Recent Graduate",
-      location: "XYZ University",
+      location: "Mumbai University",
       period: "2020 - 2024",
       description: "Completed comprehensive computer science program with focus on software development, data structures, algorithms, and web technologies.",
       achievements: [
-        "Graduated with 8.5/10 CGPA",
-        "Led final year project on E-commerce Web Application",
-        "Active member of Coding Club and participated in hackathons",
         "Completed courses in Data Structures, Algorithms, DBMS, and Web Development"
       ],
       type: "education"
     },
     {
-      company: "TechStart Solutions",
+      company: "Nish E services",
       position: "Web Development Intern",
       location: "Remote",
-      period: "Jun 2023 - Aug 2023",
-      description: "3-month internship focusing on frontend development and learning industry best practices. Worked on real client projects under senior developer guidance.",
+      period: "Jun 2025 - sep 2025",
+      description: "4-month internship focusing on frontend development and learning industry best practices. Worked on real client projects under senior developer guidance.",
       achievements: [
-        "Developed responsive landing pages for 3 client projects",
+        "Developed responsive landing pages for client",
         "Learned React.js and implemented component-based architecture",
         "Collaborated with design team to implement pixel-perfect UI",
         "Gained exposure to version control and team development workflows"
@@ -35,29 +32,14 @@ const Experience = () => {
       company: "Personal Project Development",
       position: "Self-Learning & Building",
       location: "Home",
-      period: "2022 - Present",
+      period: "2023 - Present",
       description: "Continuously learning new technologies through online courses, tutorials, and building personal projects to strengthen development skills.",
       achievements: [
         "Built 8+ personal projects showcasing different technologies",
         "Completed 50+ hours of online courses on web development",
-        "Contributing to open source projects on GitHub",
         "Practicing coding challenges and improving problem-solving skills"
       ],
       type: "personal"
-    },
-    {
-      company: "College Technical Events",
-      position: "Participant & Volunteer",
-      location: "University Campus",
-      period: "2021 - 2024",
-      description: "Active participation in coding competitions, hackathons, and technical workshops to enhance programming skills and network with peers.",
-      achievements: [
-        "Participated in 5+ hackathons with team placements",
-        "Volunteered in organizing college tech fest",
-        "Won 2nd place in college-level coding competition",
-        "Conducted web development workshop for junior students"
-      ],
-      type: "activities"
     }
   ];
 
