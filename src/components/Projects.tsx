@@ -39,7 +39,7 @@ const Projects = () => {
     {
       title: "Pokemon Search App",
       description: "A simple web application to search and display information about Pokémon using the PokeAPI.",
-      image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=600&h=400&fit=crop",
+      image: "https://i.pinimg.com/originals/fd/72/1f/fd721f81cf12ebf7b3234c2c665b584c.png",
       technologies: ["React", "PokeAPI", "JavaScript", "CSS3", "HTML5"],
       liveUrl: "https://pokemon-search-app.netlify.app/",
       githubUrl: "https://github.com/MuzanCoder/FCC"
